@@ -1,4 +1,4 @@
-package estructuras;
+package monticulos;
 
 public class MaxHeap { 
     private int[] Heap; 

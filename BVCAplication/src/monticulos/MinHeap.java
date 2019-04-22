@@ -1,4 +1,4 @@
-package estructuras;
+package monticulos;
 
 public class MinHeap { 
     private int[] Heap; 
