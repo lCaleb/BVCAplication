@@ -1,11 +1,12 @@
-package testArbolRN;
+package testArbolAVL;
 
+import AVL.ArbolAVL;
+import AVL.IArbolOrdenado;
 
-
-import ARN.ArbolRojoNegro;
-import ARN.IArbolOrdenado;
-
-public class ArbolRojoNegroTest extends AbstractArbolOrdenadoTest
+/**
+* Esta es la clase usada para verificar los métodos de la clase árbol AVL
+*/
+public class ArbolAVLTest extends AbstractArbolOrdenadoTest
 {
 
 /*
@@ -15,7 +16,7 @@ public class ArbolRojoNegroTest extends AbstractArbolOrdenadoTest
 @Override
 public IArbolOrdenado<Integer> instanciarArbol( )
 {
-return new ArbolRojoNegro<Integer>( );
+return new ArbolAVL<Integer>( );
 }
 
 /*
@@ -25,12 +26,7 @@ return new ArbolRojoNegro<Integer>( );
 @Override
 public IVerificadorEstructuraArbolOrdenado<Integer> instanciarVerificador( )
 {
-return new VerificadorEstructuraRojoNegro<Integer>( (ARN.ArbolRojoNegro<Integer> )arbol );
+return new VerificadorEstructuraArbolAVL<Integer>( ( ArbolAVL<Integer> )arbol );
 }
 
 }
-
-
-
-
-

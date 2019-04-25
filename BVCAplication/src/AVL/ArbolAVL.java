@@ -4,9 +4,7 @@ package AVL;
 
 import java.io.Serializable;
 
-import Iteradores.Iterador;
-import Iteradores.IteradorSimple;
-import ArbolAVL.*;
+
 
 /**
 * Implementación de un árbol binario ordenado balanceado por altura: árbol AVL

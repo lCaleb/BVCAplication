@@ -1,12 +1,9 @@
-package testArbolRN;
+package testArbolAVL;
 
-
-
-import ARN.ElementoExisteException;
-import ARN.ElementoNoExisteException;
-import ARN.IArbolOrdenado;
+import AVL.ElementoExisteException;
+import AVL.ElementoNoExisteException;
+import AVL.IArbolOrdenado;
 import junit.framework.TestCase;
-
 
 /**
 * Clase abstracta usada para probar los metodos de la interfaz IArbolOrdenado.
