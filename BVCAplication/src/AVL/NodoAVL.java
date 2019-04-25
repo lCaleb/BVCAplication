@@ -2,6 +2,9 @@ package AVL;
 
 import java.io.Serializable;
 
+import cola.ColaEncadenada;
+import cola.ColaVaciaException;
+
 /**
 * Nodo de un árbol AVL
 * @param <T> Tipo de elemento que va a contener cada nodo del árbol
@@ -793,4 +796,3 @@ diferenciaAltura = pDiferenciaAltura;
 }
 }
 }
-

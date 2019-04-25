@@ -6,7 +6,7 @@ import java.io.Serializable;
  * Implementación de una cola encadenada
  * @param  Tipo de datos que contiene cada nodo de la cola
  */
-public class ColaEncadenada implements Serializable
+public class ColaEncadenada<T> implements Serializable
 {
     // -----------------------------------------------------------------
     // Constantes
@@ -89,7 +89,7 @@ public class ColaEncadenada implements Serializable
             if( primero == null )
                 ultimo = null;
             numElems--;
-            return p.darElemento( );
+            return (T) p.darElemento( );
         }
     }
  
