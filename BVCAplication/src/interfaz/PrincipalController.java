@@ -10,7 +10,8 @@ import model.BVC;
 public class PrincipalController {
 	
 	private BVC bvc;
-	private Main main;
+	private Main main
+	;
 	
 
     @FXML
