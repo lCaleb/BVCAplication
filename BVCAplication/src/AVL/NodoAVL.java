@@ -2,8 +2,8 @@ package AVL;
 
 import java.io.Serializable;
 
-import cola.ColaEncadenada;
-import cola.ColaVaciaException;
+import estructuras.ColaEncadenada;
+import estructuras.ColaVaciaException;
 
 /**
 * Nodo de un árbol AVL

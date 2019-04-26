@@ -1,4 +1,4 @@
-package cola;
+package estructuras;
 
 /**
 * Excepción generada cuando se trata de tomar un elemento de una cola vacía
