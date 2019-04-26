@@ -60,6 +60,7 @@ setupEscenario1( );
 try
 {
 	
+	 
 for( int i = 0; i < datos; i++ )
 {
 Integer elem;
