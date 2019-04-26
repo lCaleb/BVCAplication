@@ -1,4 +1,4 @@
-package cola;
+package estructuras;
 
 import java.util.Hashtable;
 import java.util.LinkedList;

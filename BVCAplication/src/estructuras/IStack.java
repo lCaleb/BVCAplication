@@ -1,4 +1,4 @@
-package cola;
+package estructuras;
 	
 
 public interface IStack <T> {

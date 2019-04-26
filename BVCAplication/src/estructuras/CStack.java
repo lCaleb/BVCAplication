@@ -1,4 +1,4 @@
-package cola;
+package estructuras;
 
 public class CStack<T> implements IStack<T> {
 
