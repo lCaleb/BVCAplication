@@ -52,13 +52,14 @@ datos = 20000;
 /**
 * Crea un árbol ordenado con datos desde 0 hasta 19.999 ingresados aleatoreamente
 */
-private void setupEscenario2( )
+public void setupEscenario2( )
 {
 // Agregar números aleatorios y verificar la estructura en cada paso
 setupEscenario1( ); 
 
 try
 {
+	
 for( int i = 0; i < datos; i++ )
 {
 Integer elem;
