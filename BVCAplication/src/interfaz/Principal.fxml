@@ -8,8 +8,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane prefHeight="700.0" prefWidth="900.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.1" fx:controller="interfaz.PrincipalController">
+<AnchorPane prefHeight="700.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="interfaz.PrincipalController">
    <children>
       <Button fx:id="active" layoutX="376.0" layoutY="622.0" mnemonicParsing="false" onMouseClicked="#activeChart" style="-fx-background-radius: 20;" text="ActiveChart">
          <font>
@@ -18,9 +17,9 @@
       </Button>
       <ScrollPane prefHeight="467.0" prefWidth="899.0">
         <content>
-          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="468.0" prefWidth="901.0">
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="468.0" prefWidth="100000.0">
                <children>
-                  <LineChart fx:id="lineChart" prefHeight="472.0" prefWidth="100000.0" style="-fx-background-color: lightcyan;" title="BTC/USD">
+                  <LineChart fx:id="lineChart" prefHeight="450.0" prefWidth="100000.0" style="-fx-background-color: lightcyan;" title="BTC/USD">
                     <xAxis>
                       <CategoryAxis side="BOTTOM" />
                     </xAxis>

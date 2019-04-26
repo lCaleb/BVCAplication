@@ -6,11 +6,14 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 
+import ARN.ArbolRojoNegro;
+import javafx.collections.ObservableList;
 import javafx.scene.chart.XYChart.Data;
 import javafx.scene.chart.XYChart.Series;
 
 public class BVC {
 
+	public ObservableList<ArbolRojoNegro<Data>> divisa;
 	
 	
 	public BVC()
@@ -19,6 +22,7 @@ public class BVC {
 	}
 	
 	public Series<String, Double> readDataSet() throws IOException {
+	
 		File fili = new File ("./DataSet/BTCUSD prices.txt");
 		FileReader fr = new FileReader (fili);
 		BufferedReader br = new BufferedReader(fr);
